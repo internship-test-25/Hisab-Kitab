@@ -21,15 +21,6 @@
 - Vanilla JavaScript (no frameworks)
 - GitHub Pages (for deployment)
 
-
-## 🗂️ Folder Structure
-hisab-kitab/
-│
-├── index.html # Main webpage
-├── style.css # Styling
-├── script.js # Functionality
-└── README.md # Project documentation
-
 ## 📦 How to Use
 
 1. Open the live link: 
