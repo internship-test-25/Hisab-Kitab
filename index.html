@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hisab Kitab – Daily Expense Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+
+    <!-- Left Panel: Form + Summary -->
+    <div class="left-panel">
+      <h1>Hisab Kitab</h1>
+      <p class="subtitle">Track your daily expenses easily and privately</p>
+
+      <form id="expense-form">
+        <input type="text" id="desc" placeholder="Description" required />
+        <input type="number" id="amount" placeholder="Amount (₹)" required />
+        <select id="category">
+          <option value="Food">Food</option>
+          <option value="Travel">Travel</option>
+          <option value="Stationery">Stationery</option>
+          <option value="Tuition">Tuition</option>
+          <option value="Others">Others</option>
+        </select>
+        <button type="submit">Add Expense</button>
+      </form>
+
+      <div class="summary">
+        <h3>Today's Total: ₹<span id="daily-total">0</span></h3>
+        <h3>Monthly Total: ₹<span id="monthly-total">0</span></h3>
+      </div>
+    </div>
+
+    <!-- Right Panel: Expense List + Clear Button -->
+    <div class="right-panel">
+      <h3>Recent Expenses</h3>
+      <button class="clear-btn" onclick="clearAllExpenses()">Clear All</button>
+      <ul id="expense-list"></ul>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
