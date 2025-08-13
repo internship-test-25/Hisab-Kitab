@@ -3,7 +3,7 @@
 **Hisab Kitab** is a simple and private daily expense tracker that helps users monitor their day-to-day spending with real-time totals and category-wise tracking. This project was built with HTML, CSS, and JavaScript and is fully client-side — no sign-up, no server, no data leaks.
 
 🚀 **Live Demo:**  
-👉 [Click here to view the live site](https://intership-test-25.github.io/Hisab-Kitab/)
+👉 [Click here to view the live site](https://internship-test-25.github.io/Hisab-Kitab/)
 
 ## 📌 Features
 
